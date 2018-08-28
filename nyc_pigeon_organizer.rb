@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   all_names = []
   data.each {|name,info| all_names=info.values.flatten.uniq}
 
-  pidgeon)_list = {}
+  pidgeon_list = {}
   
   all_names.each do |names_of_pidgeons|
     
