@@ -15,10 +15,10 @@ def nyc_pigeon_organizer(data)
     vals.each do |bird_data, bird_data_value|
       all_names.each do |get_names|
         if get_names == bird_data_value
-          
+          binding.pry
       end
      end
-     binding.pry
+     
     end
   pidgeon_list
   
