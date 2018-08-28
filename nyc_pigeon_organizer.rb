@@ -17,7 +17,7 @@ def nyc_pigeon_organizer(data)
          binding.pry
         if get_names == bird_data_value
          
-        # pidgeon_list[get_names][attributes] = bird_data.to_s 
+        
          
       end
      end
