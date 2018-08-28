@@ -11,7 +11,11 @@ def nyc_pigeon_organizer(data)
     pidgeon_list[names_of_pidgeons] ={  color: [], gender: [], lives: []}
  end
   
-  
+  data.each do |attributes, vals|
+    vals.each do |bird_data, bird_data_value|
+      binding.pry
+     end
+    end
   pidgeon_list
   
 end
