@@ -14,9 +14,9 @@ def nyc_pigeon_organizer(data)
   data.each do |attributes, vals|
     vals.each do |bird_data, bird_data_value|
       all_names.each do |get_names|
-        binding.pry
+       
         if bird_data_value.include?(get_names)
-         
+          binding.pry
         
       end
      end
