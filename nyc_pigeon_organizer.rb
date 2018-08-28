@@ -12,9 +12,9 @@ def nyc_pigeon_organizer(data)
     pidgeon_list = {
       
       names_of_pidgeons =>
-        [color:] = []
-        [gender:] = []
-         [lives:] = []
+        :color = []
+        :gender = []
+        :lives = []
     }
     binding.pry
  
