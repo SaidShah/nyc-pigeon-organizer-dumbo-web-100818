@@ -9,9 +9,8 @@ def nyc_pigeon_organizer(data)
   
   all_names.each do |names_of_pidgeons|
     
-    pidgeon_list[]
+    pidgeon_list[names_of_pidgeons] =
       
-      names_of_pidgeons =>
         :color = []
         :gender = []
         :lives = []
