@@ -16,6 +16,7 @@ def nyc_pigeon_organizer(data)
       all_names.each do |get_names|
         binding.pry
         if get_names == bird_data_value
+         pidgeon_list[get_names][attributes] = bird_data.to_s 
          
       end
      end
