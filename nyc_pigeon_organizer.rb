@@ -18,6 +18,7 @@ def nyc_pigeon_organizer(data)
           pidgeon_list[get_names][bird_data]=vals
       end
      end
+     binding.pry
     end
   pidgeon_list
   
