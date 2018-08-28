@@ -13,7 +13,8 @@ def nyc_pigeon_organizer(data)
   
   data.each do |attributes, vals|
     vals.each do |bird_data, bird_data_value|
-      binding.pry
+      pidgeon_list[vals]
+      
      end
     end
   pidgeon_list
