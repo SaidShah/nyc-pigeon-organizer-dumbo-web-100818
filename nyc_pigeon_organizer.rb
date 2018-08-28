@@ -12,8 +12,8 @@ def nyc_pigeon_organizer(data)
     pidgeon_list[names_of_pidgeons] ={  color: [], gender: [], lives: []}
       
  
-    binding.pry
+   
  
  end
- 
+  binding.pry
 end
