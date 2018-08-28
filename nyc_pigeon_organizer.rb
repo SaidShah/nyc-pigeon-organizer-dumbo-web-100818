@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
     vals.each do |bird_data, bird_data_value|
       all_names.each do |get_names|
         if bird_data_value.include?(get_names)
-           pidgeon_list[get_names][attributes] = bird_data.to_s 
+           pidgeon_list[get_names][attributes] << bird_data.to_s 
          
       end
      end
